@@ -1,0 +1,49 @@
+.link   {
+    list-style: none;
+    display: inline; 
+    background-color: #FFC5B8;
+    
+}
+
+.tituloPrincipal   {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    color: red;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+.botones    {
+    text-align: right;
+}
+
+
+.queEs  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 130px;
+}
+
+.clases {
+    display: inline;
+    color: white;
+}
+
+
+.card   {
+    box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+    transition: 0.3s;
+    display: inline;
+}
+
+.container  {
+    padding: 2px 16px;
+}
+
+
+img {
+    background-color: black;
+}
+
+.textoIndex {
+    text-align: justify;
+}
