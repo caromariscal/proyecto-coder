@@ -63,4 +63,5 @@ img {
 
 .fondo  {
     background: linear-gradient(to bottom, #FFF8EA, #9E7676);
+    background-repeat: none;
 }
