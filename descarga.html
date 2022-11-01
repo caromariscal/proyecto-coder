@@ -8,9 +8,10 @@
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="container-fluid fondo">
     <header>
         <nav>
             <ul class="botones">
@@ -25,14 +26,32 @@
         <h1 class="tituloPrincipal">Valorant</h1>
     </header>
     <main>
-        <p>Aca iria el boton que llevaria a la pag para descargar el juego</p>
+
+        <div data-aos="zoom-in" class="jugaYa">
+            <h2>JUGA AHORA</h2>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-outline-danger btn-lg">
+                <a href="https://playvalorant.com/es-mx/">Descarga</a>
+            </button>
+        </div>
+
     </main>
     <footer>
         <div>
             <p>Todos los dolares para mi.</p>
         </div>
     </footer>
+
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>

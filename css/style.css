@@ -53,3 +53,14 @@ img {
     width: 80%;
     margin: auto;
 }
+
+.jugaYa {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+
+.fondo  {
+    background: linear-gradient(to bottom, #FFF8EA, #9E7676);
+}
