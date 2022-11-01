@@ -47,3 +47,9 @@ img {
 .textoIndex {
     text-align: justify;
 }
+
+.galeriaImagen  {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
