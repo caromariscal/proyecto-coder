@@ -50,7 +50,7 @@ img {
 
 .galeriaImagen  {
     height: auto;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -58,10 +58,13 @@ img {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
-    color: blue;
+    color: grey;
+    font-size: 400%;
 }
 
-.fondo  {
+body  {
     background: linear-gradient(to bottom, #FFF8EA, #9E7676);
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
