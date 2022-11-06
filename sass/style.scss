@@ -1,0 +1,37 @@
+$letra-importante: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+body    {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+
+header  {
+    .link   {
+        list-style: none;
+        display: inline; 
+        color: white;
+    }
+
+    h1 {
+        font-family: $letra-importante;
+        text-align: left;
+        color: red;
+        font-weight: lighter;
+        margin-left: 50px;
+    }
+}
+
+main    {
+    img {
+        background-color: black;
+    } 
+
+    .jugaYa {
+        text-align: center;
+        font-family: $letra-importante;
+        font-weight: bolder;
+        font-size: 400%;
+    }
+}
