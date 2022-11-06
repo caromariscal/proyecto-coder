@@ -26,5 +26,9 @@ main .jugaYa {
   font-weight: bolder;
   font-size: 400%;
 }
+main .textoIndex {
+  background-color: white;
+  border-radius: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
