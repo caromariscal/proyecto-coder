@@ -20,7 +20,7 @@ header  {
         color: red;
         font-weight: lighter;
         margin-left: 50px;
-
+        font-size: 50px;
     }
 }
 
@@ -34,6 +34,10 @@ main    {
         font-family: $letra-importante;
         font-weight: bolder;
         font-size: 400%;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     .textoIndex {
