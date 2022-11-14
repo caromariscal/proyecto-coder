@@ -4,10 +4,9 @@ body {
   background-color: grey;
 }
 
-header .link {
-  list-style: none;
-  display: inline;
-  color: white;
+header .nav {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: grey;
 }
 header h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

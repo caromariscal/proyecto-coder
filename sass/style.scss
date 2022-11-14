@@ -8,10 +8,9 @@ body    {
 }
 
 header  {
-    .link   {
-        list-style: none;
-        display: inline; 
-        color: white;
+    .nav {
+        --bs-nav-link-color: white;
+        --bs-nav-link-hover-color: grey;
     }
 
     h1 {
