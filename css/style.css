@@ -1,5 +1,5 @@
 header .nav {
-  --bs-nav-link-color: white;
+  --bs-nav-link-color: $color-bl;
   --bs-nav-link-hover-color: grey;
 }
 header h1 {
@@ -11,11 +11,17 @@ header h1 {
   font-size: 50px;
 }
 
-main img {
+main {
+  height: 1000px;
+}
+main .imgSinFondo {
   background-color: black;
 }
 main h2 {
-  font-size: 30px;
+  font-size: 40px;
+}
+main .queEs {
+  color: white;
 }
 main .jugaYa {
   text-align: center;
@@ -26,6 +32,7 @@ main .jugaYa {
 main .textoIndex {
   background-color: white;
   border-radius: 10px;
+  color: black;
 }
 main .video {
   position: relative;
@@ -43,13 +50,24 @@ main .videoResponsive {
   height: 100%;
   border: none;
 }
+main .card {
+  color: black;
+}
+main .formulario {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+main .sageRes {
+  width: 250px;
+}
 
 footer {
   background-image: url(../img/valorantFondo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 250px;
   color: white;
 }
 footer .redes {
@@ -60,7 +78,8 @@ footer .redes {
 body {
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: grey;
+  background-color: #0f1821;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

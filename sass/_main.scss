@@ -1,10 +1,16 @@
 main    {
-    img {
-        background-color: black;
+height: $tam-px * 20;
+
+    .imgSinFondo {
+        background-color: $color-ng;
     } 
 
     h2 {
-        font-size: $tam-px - 20px;
+        font-size: $tam-px - 10px;
+    }
+
+    .queEs {
+        color: $color-bl;
     }
 
     .jugaYa {
@@ -15,8 +21,9 @@ main    {
     }
 
     .textoIndex {
-        background-color: white;
+        background-color: $color-bl;
         border-radius: $tam-px - 40px;
+        color: $color-ng;
     }
 
     .video {
@@ -35,5 +42,19 @@ main    {
         width: 100%;
         height: 100%;
         border: none;
+    }
+
+    .card {
+        color: $color-ng;
+    }
+
+    .formulario {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .sageRes {
+        width: $tam-px * 5;
     }
 }
