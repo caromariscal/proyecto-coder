@@ -50,4 +50,17 @@ main .videoResponsive {
   border: none;
 }
 
+footer {
+  background-image: url(../img/valorantFondo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+footer .redes {
+  display: inline;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
