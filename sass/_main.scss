@@ -1,0 +1,39 @@
+main    {
+    img {
+        background-color: black;
+    } 
+
+    h2 {
+        font-size: $tam-px - 20px;
+    }
+
+    .jugaYa {
+        text-align: center;
+        font-family: $letra-importante;
+        font-weight: bolder;
+        font-size: 400%;
+    }
+
+    .textoIndex {
+        background-color: white;
+        border-radius: $tam-px - 40px;
+    }
+
+    .video {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+
+    .videoResponsive {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+}

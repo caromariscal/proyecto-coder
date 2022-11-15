@@ -1,0 +1,14 @@
+footer {
+    background-image: url(../img/valorantFondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: $tam-px * 10;
+    color: white;
+
+    .redes {
+        display: inline;
+        text-decoration: none;
+
+    }
+}

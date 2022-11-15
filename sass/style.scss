@@ -1,79 +1,10 @@
-$letra-importante: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
 
 body    {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: grey;
-}
-
-header  {
-    .nav {
-        --bs-nav-link-color: white;
-        --bs-nav-link-hover-color: grey;
-    }
-
-    h1 {
-        font-family: $letra-importante;
-        text-align: left;
-        color: red;
-        font-weight: lighter;
-        margin-left: 50px;
-        font-size: 50px;
-    }
-}
-
-main    {
-    img {
-        background-color: black;
-    } 
-
-    h2 {
-        font-size: 30px;
-    }
-
-    .jugaYa {
-        text-align: center;
-        font-family: $letra-importante;
-        font-weight: bolder;
-        font-size: 400%;
-    }
-
-    .textoIndex {
-        background-color: white;
-        border-radius: 10px;
-    }
-
-    .video {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        padding-top: 56.25%;
-    }
-
-    .videoResponsive {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-}
-
-footer {
-    background-image: url(../img/valorantFondo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    color: white;
-
-    .redes {
-        display: inline;
-        text-decoration: none;
-
-    }
 }
