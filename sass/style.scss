@@ -1,4 +1,5 @@
 $letra-importante: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$color: white;
 
 
 body    {
@@ -9,7 +10,7 @@ body    {
 
 header  {
     .nav {
-        --bs-nav-link-color: white;
+        --bs-nav-link-color: $color;
         --bs-nav-link-hover-color: grey;
     }
 
@@ -28,6 +29,10 @@ main    {
         background-color: black;
     } 
 
+    h2 {
+        font-size: 30px;
+    }
+
     .jugaYa {
         text-align: center;
         font-family: $letra-importante;
@@ -35,12 +40,26 @@ main    {
         font-size: 400%;
     }
 
-    h2 {
-        font-size: 30px;
+    .textoIndex {
+        background-color: $color;
+        border-radius: 10px;
     }
 
-    .textoIndex {
-        background-color: white;
-        border-radius: 10px;
+    .video {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+
+    .videoResponsive {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
     }
 }
