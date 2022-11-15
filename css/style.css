@@ -5,7 +5,7 @@ body {
 }
 
 header .nav {
-  --bs-nav-link-color: $color;
+  --bs-nav-link-color: white;
   --bs-nav-link-hover-color: grey;
 }
 header h1 {
