@@ -22,6 +22,7 @@ main h2 {
 }
 main .queEs {
   color: white;
+  font-style: italic;
 }
 main .jugaYa {
   text-align: center;
