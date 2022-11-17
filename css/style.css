@@ -11,9 +11,6 @@ header h1 {
   font-size: 50px;
 }
 
-main {
-  height: 1000px;
-}
 main .imgSinFondo {
   background-color: black;
 }
@@ -73,7 +70,24 @@ footer {
 }
 footer .redes {
   display: inline;
-  text-decoration: none;
+}
+footer .facebook {
+  background-size: 200px;
+}
+footer .facebook:hover {
+  background-color: #3b5998;
+  border-radius: 100%;
+}
+footer .twitter {
+  background-size: 200px;
+}
+footer .twitter:hover {
+  background-color: #00acee;
+  border-radius: 100%;
+}
+footer .instagram:hover {
+  background-color: #E1306C;
+  border-radius: 100%;
 }
 
 body {

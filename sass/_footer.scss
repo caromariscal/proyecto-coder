@@ -6,9 +6,34 @@ footer {
     height: $tam-px * 5;
     color: $color-bl;
 
+
     .redes {
         display: inline;
-        text-decoration: none;
+    }
+
+    .facebook   {
+        background-size: 200px;
 
     }
+
+    .facebook:hover {
+        background-color: #3b5998;
+        border-radius: 100%;
+    }
+
+    .twitter   {
+        background-size: 200px;
+
+    }
+
+    .twitter:hover {
+        background-color: #00acee;
+        border-radius: 100%;
+    }
+
+    .instagram:hover {
+        background-color: #E1306C;
+        border-radius: 100%;
+    }
+
 }
