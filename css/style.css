@@ -68,7 +68,7 @@ footer {
   height: 250px;
   color: white;
 }
-footer .redes {
+footer .redes li {
   display: inline;
 }
 footer .facebook {
@@ -95,6 +95,18 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #0f1821;
   color: white;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
