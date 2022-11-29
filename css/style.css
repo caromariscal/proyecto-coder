@@ -25,7 +25,7 @@ main .jugaYa {
   text-align: center;
   font-family: valorant;
   font-weight: bolder;
-  font-size: 600%;
+  font-size: 400%;
 }
 main .textoIndex {
   background-color: white;
@@ -91,7 +91,7 @@ footer .twitter:hover {
   border-radius: 100%;
 }
 footer .instagram:hover {
-  background-color: #E1306C;
+  background-color: #F77737;
   border-radius: 100%;
 }
 
