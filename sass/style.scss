@@ -1,16 +1,12 @@
-@import "variables", "header", "main", "footer";
-
-@font-face {
-    font-family: valorant;
-    src: url(../font/Valorant\ Font.ttf);
-}
+@import "variables", "header", "main", "footer", "fonts";
 
 
 body    {
     text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: blueH;
     background-color: #0f1821;
     color: $color-bl;
+    font-size: 18px;
 }
 
 h4 {

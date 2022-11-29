@@ -15,7 +15,7 @@ main .imgSinFondo {
   background-color: black;
 }
 main h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 main .queEs {
   color: white;
@@ -23,9 +23,9 @@ main .queEs {
 }
 main .jugaYa {
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: valorant;
   font-weight: bolder;
-  font-size: 400%;
+  font-size: 600%;
 }
 main .textoIndex {
   background-color: white;
@@ -37,6 +37,7 @@ main .video {
   width: 100%;
   overflow: hidden;
   padding-top: 56.25%;
+  margin-top: 4%;
 }
 main .videoResponsive {
   position: absolute;
@@ -98,11 +99,16 @@ footer .instagram:hover {
   font-family: valorant;
   src: url(../font/Valorant\ Font.ttf);
 }
+@font-face {
+  font-family: blueH;
+  src: url(../font/blue\ highway\ rg.ttf);
+}
 body {
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: blueH;
   background-color: #0f1821;
   color: white;
+  font-size: 18px;
 }
 
 h4 {
