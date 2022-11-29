@@ -68,6 +68,10 @@ footer {
   height: 250px;
   color: white;
 }
+footer h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 footer .redes li {
   display: inline;
 }
