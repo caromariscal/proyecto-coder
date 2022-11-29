@@ -3,7 +3,7 @@ header .nav {
   --bs-nav-link-hover-color: grey;
 }
 header h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: valorant;
   text-align: left;
   color: red;
   font-weight: lighter;
@@ -94,6 +94,10 @@ footer .instagram:hover {
   border-radius: 100%;
 }
 
+@font-face {
+  font-family: valorant;
+  src: url(../font/Valorant\ Font.ttf);
+}
 body {
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
