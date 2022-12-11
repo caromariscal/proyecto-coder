@@ -1,4 +1,7 @@
 main    {
+
+    height: 1000px;
+
     .imgSinFondo {
         background-color: $color-ng;
     } 
@@ -17,6 +20,16 @@ main    {
         font-family: $letra-importante;
         font-weight: bolder;
         font-size: 400%;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .containerJett {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .fotoJett {
+        height: 600px;
     }
 
     .textoIndex {
@@ -47,6 +60,7 @@ main    {
     .card {
         color: $color-ng;
     }
+
 
     .formulario {
         width: 100%;

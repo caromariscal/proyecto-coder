@@ -1,0 +1,45 @@
+@media (max-width: 530px) {
+    main {
+        height: 1450px;
+
+        .fotoJett {
+            height: 300px;
+        }
+    }
+}
+
+@media (min-width: 531px) and (max-width: 576px) {
+    main {
+        height: 3000px;
+
+        .fotoJett {
+            height: 300px;
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    main {
+        height: 2780px;
+
+        .fotoJett {
+            height: 400px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    main {
+        height: 2400px;
+
+        .fotoJett {
+            height: 400px;
+        }
+    }
+}
+
+@media (min-width: 993px) {
+    main {
+        height: 1750px;
+    }
+}

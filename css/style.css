@@ -9,8 +9,12 @@ header h1 {
   font-weight: lighter;
   margin-left: 50px;
   font-size: 50px;
+  margin-top: 20px;
 }
 
+main {
+  height: 1000px;
+}
 main .imgSinFondo {
   background-color: black;
 }
@@ -26,6 +30,14 @@ main .jugaYa {
   font-family: valorant;
   font-weight: bolder;
   font-size: 400%;
+  padding: 40px 0px 40px 0px;
+}
+main .containerJett {
+  text-align: center;
+  margin-top: 40px;
+}
+main .fotoJett {
+  height: 600px;
 }
 main .textoIndex {
   background-color: white;
@@ -102,6 +114,43 @@ footer .instagram:hover {
 @font-face {
   font-family: blueH;
   src: url(../font/blue\ highway\ rg.ttf);
+}
+@media (max-width: 530px) {
+  main {
+    height: 1450px;
+  }
+  main .fotoJett {
+    height: 300px;
+  }
+}
+@media (min-width: 531px) and (max-width: 576px) {
+  main {
+    height: 3000px;
+  }
+  main .fotoJett {
+    height: 300px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  main {
+    height: 2780px;
+  }
+  main .fotoJett {
+    height: 400px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  main {
+    height: 2400px;
+  }
+  main .fotoJett {
+    height: 400px;
+  }
+}
+@media (min-width: 993px) {
+  main {
+    height: 1750px;
+  }
 }
 body {
   text-align: justify;
